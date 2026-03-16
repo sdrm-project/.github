@@ -60,4 +60,4 @@ License selection is under evaluation.
 
 ## Author
 
-Robert Bonney Jr.
+Robert Mac Bonney Jr.
