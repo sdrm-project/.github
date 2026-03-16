@@ -1,17 +1,31 @@
 # SDRM Support
 
-If you need help with the SDRM project, please use the following resources.
+If you need assistance with the SDRM project, the following options are available.
 
-## Questions
+## Questions and Discussion
 
-Open a GitHub Discussion or Issue in the appropriate repository.
+You can open an issue in the appropriate repository for:
 
-## Security Issues
+- Questions
+- Clarifications
+- Discussion about SDRM components
 
-Please report security concerns privately.
+## Bug Reports
 
-See SECURITY.md for reporting procedures.
+If you encounter a bug, please create a new issue and include:
+
+- Description of the problem
+- Steps to reproduce
+- System environment information
+
+## Feature Requests
+
+Suggestions for improvements are welcome.
+
+Please submit feature requests using the issue templates.
 
 ## Contact
+
+For general inquiries or private communication:
 
 sdrm.systems@gmail.com
