@@ -65,4 +65,4 @@ Robert Mac Bonney Jr.
 ---
 
 ## Contact
-Contact: sdrm.systems@gmail.com
+For questions or collaboration inquiries: sdrm.systems@gmail.com
