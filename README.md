@@ -1,96 +1,257 @@
-# SDRM — Software Defined Reliability & Deterministic Runtime Model
+# SDRM — Secure Database Reliability Model
 
-SDRM is an autonomous reliability architecture framework designed to bring **deterministic execution, governed state transitions, and self-auditing reliability systems** to modern enterprise infrastructure.
+The Secure Database Reliability Model (SDRM) is an open research and engineering initiative focused on building a reliability operating system for databases and distributed infrastructure.
 
-It focuses on transforming traditional operational systems into **self-aware, policy-driven, and replayable reliability systems**.
-
----
-
-## 🔷 Core Principles
-
-### 1. Deterministic Execution
-All system transitions must be reproducible given the same inputs and state history.
-
-### 2. State Governance
-Every operational state transition is explicitly validated against governance rules before execution.
-
-### 3. Replayability
-Any system behavior can be replayed for audit, debugging, or compliance verification.
-
-### 4. Observability as a First-Class Primitive
-Observability is not external tooling—it is embedded into the runtime model.
-
-### 5. Autonomous Reliability Feedback Loops
-Systems continuously evaluate, adjust, and correct operational drift.
+SDRM combines mathematical reliability modeling, telemetry analysis, simulation systems, and autonomous control mechanisms to improve infrastructure stability, resilience, and operational reliability.
 
 ---
 
-## 🧩 SDRM Ecosystem Repositories
+# Official SDRM Organization
 
-| Repo | Purpose |
-|------|--------|
-| sdrm-core | Core deterministic execution engine |
-| sdrm-runtime | Runtime execution environment for governed workflows |
-| sdrm-governance | Policy, rules, and validation framework |
-| sdrm-observability | Telemetry, tracing, and replay systems |
-| sdrm-sqlserver-adapter | SQL Server integration layer |
-| sdrm-examples | Reference implementations and demos |
+GitHub Organization:
 
----
+[https://github.com/sdrm-project](https://github.com/sdrm-project)
 
-## 🏗️ Architectural Layers
+Project Contact:
 
-[ Application / Systems ]
-↓
-[ SDRM Runtime Layer ]
-↓
-[ Governance & Policy Engine ]
-↓
-[ Deterministic Core Execution Engine ]
-↓
-[ Observability + Replay System ]
-↓
-[ Infrastructure (SQL Server, Cloud, etc.) ]
-
+[sdrm.systems@gmail.com](mailto:sdrm.systems@gmail.com)
 
 ---
 
-## 🚀 Goals
+# Mission
 
-- Reduce operational ambiguity in production systems
-- Eliminate non-deterministic incident reproduction
-- Enable policy-driven system behavior
-- Build autonomous reliability systems for enterprise databases and distributed systems
+The mission of SDRM is to advance the scientific and operational understanding of reliability engineering for modern infrastructure systems.
 
----
+SDRM explores how databases, distributed systems, cloud infrastructure, and telemetry-driven environments can become more predictive, adaptive, and self-healing.
 
-## 📜 License
+The long-term objective is to create a structured reliability operating system capable of:
 
-MIT License
-
-Copyright (c) 2026 Robert Bonney Jr. and SDRM Project Contributors (including AI-assisted contributions)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* Observing infrastructure reliability in real time
+* Predicting instability and failure conditions
+* Coordinating reliability analysis across systems
+* Simulating infrastructure behavior under stress
+* Enabling autonomous reliability control mechanisms
+* Supporting self-healing operational environments
 
 ---
 
-## 👤 Maintainer
+# SDRM Core Architecture
 
-SDRM Project Organization  
-https://github.com/sdrm-project
+SDRM is designed as a layered reliability framework.
+
+```text
+        +--------------------------------+
+        |     Infrastructure Systems     |
+        | Databases / Cloud / Services   |
+        +---------------+----------------+
+                        |
+                        v
+        +--------------------------------+
+        |     Telemetry Collection       |
+        | Metrics / Events / Logs        |
+        +---------------+----------------+
+                        |
+                        v
+        +--------------------------------+
+        | Reliability Algorithm Engine   |
+        | Analysis / Scoring / Prediction|
+        +---------------+----------------+
+                        |
+                        v
+        +--------------------------------+
+        | Simulation & Validation Layer  |
+        | Stress / Failure Modeling      |
+        +---------------+----------------+
+                        |
+                        v
+        +--------------------------------+
+        | Autonomous Reliability Control |
+        | Decision & Recovery Systems    |
+        +---------------+----------------+
+                        |
+                        v
+        +--------------------------------+
+        | Stabilized Infrastructure      |
+        +--------------------------------+
+```
+
+---
+
+# Core SDRM Repositories
+
+The SDRM ecosystem is organized into multiple coordinated repositories.
+
+## Primary Repositories
+
+### sdrm-reliability-operating-system
+
+Core orchestration platform coordinating SDRM reliability monitoring, prediction, simulation, and autonomous control.
+
+### sdrm-reliability-mathematical-model
+
+Mathematical reliability equations, probability models, and theoretical reliability analysis.
+
+### sdrm-reliability-algorithm-engine
+
+Reliability scoring, failure prediction, telemetry analysis, and decision algorithms.
+
+### sdrm-reliability-simulation
+
+Simulation framework for validating SDRM models and infrastructure reliability behavior.
+
+### sdrm-reliability-architecture
+
+Infrastructure architecture, deployment models, and distributed system design.
+
+### sdrm-autonomous-reliability-system
+
+Autonomous decision-making and self-healing reliability control systems.
+
+### sdrm-programming-framework
+
+APIs, SDKs, telemetry interfaces, and integration tooling.
+
+### sdrm-reference-implementation
+
+Prototype implementation demonstrating SDRM functionality and integration.
+
+### sdrm-system-architecture
+
+Master architecture documentation and system specifications.
+
+### sdrm-research-paper
+
+Formal research documentation, whitepapers, experiments, and technical publications.
+
+### sdrm-project-preservation-package
+
+Long-term archival repository preserving SDRM design history and development evolution.
+
+---
+
+# Research Focus Areas
+
+SDRM currently focuses on:
+
+* Database reliability engineering
+* Distributed systems stability
+* Reliability modeling and prediction
+* Infrastructure telemetry analysis
+* Failure analysis and recovery systems
+* Autonomous infrastructure systems
+* Reliability simulation environments
+* Self-healing operational systems
+
+---
+
+# Technology Stack
+
+Current technologies and operational focus areas include:
+
+* SQL Server
+* Python
+* PowerShell
+* Distributed telemetry systems
+* Infrastructure automation
+* Reliability analysis systems
+* GitHub-based open engineering collaboration
+
+---
+
+# SDRM Whitepaper
+
+The SDRM v1.0 Whitepaper establishes the initial framework for the project, including:
+
+* Reliability operating system concepts
+* Layered system architecture
+* Reliability modeling strategy
+* Autonomous control concepts
+* Simulation and validation principles
+
+Future whitepaper versions will include:
+
+* Formal mathematical definitions
+* Reliability equations
+* Expanded architecture diagrams
+* Telemetry specifications
+* Reliability state models
+* Simulation methodologies
+
+---
+
+# Project Status
+
+Current Status:
+
+Early Research & Architecture Development
+
+The SDRM project is actively building:
+
+* foundational system architecture
+* reliability modeling frameworks
+* telemetry analysis systems
+* simulation environments
+* autonomous reliability concepts
+
+---
+
+# Collaboration
+
+Researchers, engineers, DBAs, SREs, reliability engineers, and contributors interested in infrastructure reliability are welcome.
+
+Contributors may participate through:
+
+* architecture discussions
+* research collaboration
+* algorithm development
+* documentation improvements
+* simulation framework development
+* infrastructure experimentation
+
+Please review the contribution guidelines in the appropriate repositories.
+
+---
+
+# Founder
+
+Robert Mac Bonney Jr.
+
+Senior SQL Server DBA
+Database Reliability Engineer (DBRE)
+Founder of SDRM
+
+---
+
+# Vision for SDRM
+
+SDRM is designed to explore a future where infrastructure systems are capable of:
+
+* understanding their operational reliability
+* identifying instability patterns
+* predicting potential failure conditions
+* coordinating adaptive recovery strategies
+* continuously improving operational resilience
+
+The long-term vision is to help establish a new generation of reliability engineering systems for modern infrastructure environments.
+
+---
+
+# Contact
+
+Email:
+
+[sdrm.systems@gmail.com](mailto:sdrm.systems@gmail.com)
+
+GitHub Organization:
+
+[https://github.com/sdrm-project](https://github.com/sdrm-project)
+
+---
+
+# Memorial Day 2026 Public Introduction
+
+The public release of SDRM began during Memorial Day 2026 as the first public step toward building an open reliability engineering initiative focused on databases and distributed systems.
+
+The project recognizes that stable infrastructure, resilient systems, and responsible engineering require long-term thinking, discipline, and continuous improvement.
+
+SDRM remains committed to open research, technical collaboration, and responsible engineering development.
